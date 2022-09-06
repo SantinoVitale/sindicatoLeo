@@ -8,6 +8,7 @@ fetch("../json/DB.json")
         } 
     }, 2000))
 
-    let consultaDona = document.querySelector("#donacion")
+    let consultaDona = document.querySelector("#dona")
     let contenedorDona = document.createElement("div")
-    contenedorDona.innerHTML= ``
+    contenedorDona.innerHTML= `<p> ${dona} </p>`
+    contenedorDona.appendChild("dona")
