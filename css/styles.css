@@ -1,22 +1,16 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(184, 181, 181);;
-    min-height: 100%;
-    background-repeat:no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    position: relative;
+    height: 100% !important;
     margin: 0;
     padding: 0;
-    text-decoration: none;
+    top: 0;
 }
 
 .home-img{
     align-self: center;
     float: right;
-}
-.menu{
-    box-sizing: border-box;
-
 }
 
 .contenedor {
@@ -92,27 +86,18 @@ p{
     color:cadetblue
 }
 
-
-.menu{
-    list-style: none;
-    padding: 0;
-    background: #092327;
-    width: 100%;
-    max-width: 100%;
-    margin:auto;
+.navbar{
+    padding: 0 !important;
+    justify-content: space-around !important;
 }
+
 .menu li a{
     text-decoration: none;
     color: white;
     padding: 20px;
-    display: block;
+    font-size: 17px;
 }
-.menu li{
-    display: inline-block;
-    justify-content: space-between;
-    align-self: center;
 
-}
 .menu li a:hover{
     background: #ef8354;
 }
@@ -141,4 +126,12 @@ footer{
 .movedor{
     display: flex;
     justify-content: center;
+}
+
+.h2Dona{
+    text-align: center;
+}
+
+.footer{
+    margin-top: auto !important;
 }
